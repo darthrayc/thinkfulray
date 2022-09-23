@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en"> <!--Html language set to English-->
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="Raymond Mendoza Portfolio">
+        <meta name="keywords" content="Portfolio,thinkful,web designer"> <!--Keywords to aid with search engine relevancy-->
+        <meta name="author" content="Raymond C. Mendoza">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Raymond Mendoza Thinkful Porftolio</title>
+        <link rel="stylesheet" href="style.css" type="text/css">
+        </head>
+
+<body>
+    <!--This section is the header with navlinks for the page-->
+<header> <!--Header of the web page-->
+        <h1>Raymond C. Mendoza</h1>
+        <p class="sdp">Software Developer</p>
+        <nav class="nav"> <!--Navigation links for sections of the pages using ID classes-->
+            <a href="#About">About</a>
+            <a href="#History">History</a>
+            <a href="#Contact">Contact</a>
+            </nav>
+    </header>
+
+    <!--Contains image of Raymond-->
+<div class="container"> <!--Div class container to display content through css-->
+        <img src="./Images/ray.jpg" alt="Man with short black hair and glasses in a suit smiling">
+    </div>
+
+    <!--Main section containing articles, section, and lists-->
+    <main>
+    <div class="intro"> <!--Div class: intro to transform full coding's line height-->
+        <article>
+        <h2>Hi, I'm <span class="blue">Raymond C. Mendoza</span></h2> <!--Span class is used to change a certain color of the word through CSS-->
+        <p>I am aspiring to become a software developer living in Las Vegas, Nevada</p>
+        <p>I am former major in finance and self-taught software developer. My interests include:</p>
+        <ol>
+            <li>Creating websites to develop more skills</li>
+            <li>Creating and learning the fundamentals of music producing</li>
+            <li>Playing and understanding the creation of video games</li>
+        </ol>
+        <p>Take a look around my website and feel free to <a href="#Contact"><b>contact me</b></a></p>
+</article>
+</div>
+
+    <hr> <!--Sectioning off the page using hr-->
+
+    <div id="About" class="about"> <!--Div class ID: About to direct navlinks to section of page-->
+    <article>
+        <h2>About Raymond</h2>
+        <p>After graduating from University of Nevada, Las Vegas as a finance major. I found myself invested in more than
+            numbers and financial decision making. I felt there was more that I could do than helping others invest in making
+            a huge financial decision in their lives. During the Covid-19 pandemic, I found myself wanting to expand my knowledge 
+            and learn more when it came to software developing as finance, although it was fun, was not a career choice I could find myself settling in long-term with.
+        </p>
+        <p>As a student at <span class="thinkful"><b>Thinkful</b></span>, I have started my journey into becoming a software developer and I am excited for what is to come.</p>
+        <p>If you are currently searching for a new developer who is ready to take on a challenge, please reach out!
+            I am ready to learn more skills and work alongside with other developers to build any latest software.
+        </p>
+    </article>
+    </div>
+
+    <hr>
+
+    <div id="History"></div> <!--Div class ID: History to direct navlink to section of the page-->
+            <section>
+                <div class="work"> <!--Class: "work" is used to help adjust this certain div section in CSS-->
+            <h3>Work History</h3>
+            <ul>
+                <li><b>Busser</b> <i>Honey Salt</i> Aug 2019 - Mar 2020</li>
+                <li><b>Valet Attendant</b> <i>Towne Park</i> Feb 2019 - May 2019</li>
+                <li><b>Delivery Driver</b> <i>Marco's Pizza (Marco's Franchising, LLC)</i> Aug 2014 - May 2019</li>
+                <li><b>Captioning Agent</b> <i>CaptionCall</i> Jun 2017 - Oct 2017</li>
+            </ul>
+        </div>
+            <div class="edu"> <!--Class: "edu" is used to help with editing certain CSS styling of this section -->
+            <h3 class="Edu">Education</h3> <!--Class is applied to both h3 and ul to help style one these elements.-->
+            <ul class="Edu">
+                <li><b>University of Nevada, Las Vegas</b> <i>Bachelor of Science - BS - Finance</i> 2015 - 2020</li> <!--Styling elements such as "b" and "i" are used to bold and italicize certain words-->
+                <li><b>Activities and Societes:</b> Real Estate Club, Rebel Risk Management</li>
+            </ul>
+        </div>
+            </section>
+
+    <hr>
+
+<div id="Contact"> <!--Div class ID: Contact to direct navlink to this section of the page-->
+    <section>
+    <h2>Contact Raymond</h2>
+    <p>If you'd like to work with me, please feel free to contact or follow me:</p>
+    <ol class="contol"> <!--Class contol is created to only apply CSS styling to the elements within this class-->
+        <li><a href="https://www.linkedin.com/in/raymond-mendoza-90436a195?trk=people-guest_profile-result-card_result-card_full-click" target="_blank" rel="noreferrer noopener">LinkedIn</a></li>
+        <li><a href="https://github.com/darthrayc" target="_blank" rel="noreferrer noopener">GitHub</a></li>
+    </ol>
+    <!--iframe src is for the google maps location-->
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d206252.72146639266!2d-115.31508634542196!3d36.12519578293784!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80beb782a4f57dd1%3A0x3accd5e6d5b379a3!2sLas%20Vegas%2C%20NV!5e0!3m2!1sen!2sus!4v1663514153884!5m2!1sen!2sus" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</section>
+</div>
+</main>
+
+<!--Footer of the web page-->
+<footer>
+    <p>&copy; <!--&copy is for the copyright symbol--> Raymond Thinkful</p>
+</footer>
+
+</body>
+</html>

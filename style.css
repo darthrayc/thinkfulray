@@ -1,0 +1,198 @@
+/* CSS styling of the entire body of the web page*/
+body {
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  /*Styling of the entire header section*/
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #0C2D48;
+    color: white;
+    height: 18vh;
+    max-width: 1920px;
+    margin-bottom: 15vh;
+    overflow: auto;
+}
+
+h1{
+    font-size: 40px;
+    font-weight: 20;
+    letter-spacing: 2px;
+    translate: 0 -20px;
+}
+
+/*Styling of div class: sdp for the first paragraph element within header*/
+.sdp{
+    color: white;
+    font-size: 25px;
+    font-weight: 10;
+    letter-spacing: 2px;
+    translate: -555px 30px;
+
+}
+
+/*Styling of navlinks*/
+.nav{
+    display: flex;
+    justify-content: space-around;
+    width: 30%;
+    color: white;
+    font-size: 20px;
+}
+
+nav a{
+    display: flex;
+    justify-content: space-around;
+    width: 20%;
+    font-size: 20px;
+    text-decoration: none;
+    border: white;
+    border-style: solid;
+    border-radius: 10%;
+    padding: 10px;
+}
+
+/*Pseudo-classes for navlinks*/
+nav a:link{
+    color: white;
+}
+
+/*pseudo-class for hovering over navlinks*/
+nav a:hover{
+    color: #2E8BC0;
+    cursor: pointer;
+}
+
+/*pseudo-class for showing you have visited the page*/
+a:visited{
+    color: #189AB4;
+}
+
+/*Adjustments for container div class in HTML*/
+.container{
+   float: left;
+   margin-left: 15vh;
+}
+
+/*Img is being given a border radius to transofrm image into a circle*/
+img{
+    margin-right: 20vh;
+    border-radius: 50%;
+}
+
+/*Color change of the word: Raymond C. Mendoza within HTMl document*/
+span.blue{
+    color:#2E8BC0;
+}
+
+.intro{
+    display: flex;
+    justify-content: center;
+    line-height: 5vh;
+    margin-right: 15vh;
+}
+
+/*adjusting font size for all h2 sections*/
+h2{
+    font-size: 50px;
+}
+
+hr{
+    border-top: 5px solid #0C2D48;
+    margin: 5vh;
+    margin-top: 15vh;
+    margin-bottom: 15vh;
+}
+
+/*adjustments for only the about section, display, color, height, and alignments*/
+#About{
+    display: flex;
+    justify-content: center;
+    background-color: #0C2D48;
+    height: 600px;
+    color: white;
+    text-align: center;
+    line-height: 5vh;
+    margin: 5vh;
+}
+
+/*adjusting font size for only paragraph sections*/
+p{
+    font-size: 25px;
+}
+
+/*Color change for the word: Thinkful within paragraph*/
+span.thinkful{
+    color:#2E8BC0;
+}
+
+/*adjusting the alignment and font-size for all h3 elements*/
+h3{
+    text-align: center;
+    font-size: 30px;
+}
+
+.work{
+    float: left; /*Float gives the function of another element having the ability to sit next to another.*/
+    border: #0C2D48;
+    border-style: solid;
+    border-width: 8px;
+    height: 600px;
+    width: 30%;
+    color: black;
+    text-align: left;
+    margin-left: 30vh;
+    line-height: 5vh;
+}
+
+.edu{
+    display: inline-block; /*This display gives the ability for this section to align to the right of the work section*/
+    border: #0C2D48;
+    border-style: solid;
+    border-width: 8px;
+    height: 600px;
+    width: 30%;
+    color: black;
+    margin-left: 10vh;
+    line-height: 5vh;
+}
+
+#Contact{
+    display: flex;
+    justify-content: center;
+}
+
+/*adjustment alignment and line-height for the ol within the contact me section*/
+.contol{
+    float: left;
+    line-height: 5vh;
+}
+
+iframe{
+    float: right;
+    margin-left: 5vh;
+}
+
+footer{
+    display: flex;
+    justify-content: space-around;
+    background-color: #0C2D48;
+    color: white;
+    height: 10vh;
+    max-width: 1920px;
+    margin-top: 10vh;
+    overflow: auto;
+}
+
+ol{
+    font-size: 25px;
+}
+
+ul{
+    font-size: 25px;
+}
